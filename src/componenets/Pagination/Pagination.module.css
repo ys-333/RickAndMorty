@@ -1,0 +1,19 @@
+.pagination {
+  text-align: center;
+  padding: 0.8rem;
+}
+.btn {
+  padding-inline: 0.4rem;
+  padding-block: 0.2rem;
+  margin-inline: 4px;
+  color: black;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn:active {
+  background-color: skyblue;
+}
+.btn:disabled {
+  background-color: grey;
+}

@@ -1,0 +1,62 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 4rem;
+  column-gap: 4rem;
+  padding: 2rem;
+  background: rgb(108, 108, 108);
+  background: linear-gradient(
+    344deg,
+    rgba(108, 108, 108, 1) 0%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  /* background: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif); */
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  /* -webkit-box-shadow: 18px 25px 22px 9px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 18px 25px 22px 9px rgba(0, 0, 0, 0.51); */
+  box-shadow: 12px 10px 14px 2px rgb(0 0 0 / 51%);
+  border-top: 0.1px solid rgb(138 43 226);
+  transition: 400ms all;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.card_image {
+  text-align: center;
+}
+.card_image img {
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
+
+.card_heading {
+  /* background-color: rgb(235, 235, 235); */
+  /* margin-bottom: 1%; */
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  padding-inline: 1rem;
+  padding-block: 1.6rem;
+}
+.card_heading h1 {
+  font-family: cursive;
+}
+.card_heading h4 {
+  font-weight: 500;
+  font-size: clamp(0.6rem, 1rem, 1.4rem);
+}
+.card_body {
+  padding: 1rem 1rem 1rem 1.2rem;
+  font-size: clamp(0.6rem, 0.8rem, 1rem);
+}
